@@ -1,2 +1,84 @@
 @charset  "UTF-8";
 
+*{
+    margin:0px;
+    padding: 0px;
+}
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header > h1{
+    padding: 35px;
+    font-variant: small-caps;
+    font-size: 10vw;
+
+}
+header > p{
+    padding-bottom: 50px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+section{
+    line-height: 2em;
+    font-family: cursive;
+    font-size: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+    
+
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    background-attachment: fixed;
+    
+}
+section.imagem > p{
+    width: 500px;
+background-color: rgba(0, 0, 0, 0.521);
+}
+section#image01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#image02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
